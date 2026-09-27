@@ -11,24 +11,30 @@
 html,body{max-width:100%;overflow-x:hidden}
 h1,h2,p,li,a{overflow-wrap:anywhere}
 
-body { margin:0; background:#d7f6ff; color:#06141a; font:20px/1.4 "Avenir Next", "Segoe UI", sans-serif; }
-.poster { min-height:100vh; display:flex; flex-direction:column; justify-content:flex-end; padding:28px; box-sizing:border-box; }
-.mark { letter-spacing:.22em; text-transform:uppercase; font-size:12px; color:#67e8f9; }
-h1 { font-size:clamp(46px, 8vw, 92px); line-height:.9; max-width:14ch; margin:12px 0; }
-.poster p:last-of-type { max-width:36rem; color:#06141a; }
-.cta { align-self:flex-start; color:#d7f6ff; background:#67e8f9; text-decoration:none; padding:14px 18px; margin:18px 0 8px; }
-#scope { background:#06141a; color:#d7f6ff; padding:28px; }
+body { margin:0; background:#07080a; color:#d6ffe4; font:16px/1.5 ui-monospace, monospace; }
+.term { max-width:920px; margin:32px auto; background:#0d1210; border:1px solid #234; border-radius:12px; overflow:hidden; }
+header { display:flex; gap:8px; align-items:center; padding:12px 14px; background:#101816; }
+header i { width:10px; height:10px; border-radius:50%; background:#fb7185; display:block; }
+header span { margin-left:8px; color:#9aa; }
+pre { white-space:pre-wrap; padding:8px 18px 18px; margin:0; }
+.cta { display:inline-block; margin:0 18px 18px; color:#04140c; background:#fb7185; text-decoration:none; padding:8px 12px; }
+#scope { max-width:920px; margin:0 auto 40px; padding:0 8px; }
 
 </style>
 </head>
 <body>
 
-<main class="poster">
-  <p class="mark">StartupQuick · Lab</p>
-  <h1>Turn startup ideas into{&quot; &quot;} premium launch pages {&quot; &quot;} instantly.</h1>
-  <p>StartupQuick helps founders, studios, and creators turn raw startup ideas into polished, investor-friendly pages with structured messaging, visuals, proof bars, and shareable links.</p>
-  <a class="cta" href="#scope">See the boundary</a>
+<main class="term">
+  <header><i></i><i></i><i></i><span>StartupQuick</span></header>
+  <pre>
+$ status
+maturity  Lab
+claim     Turn startup ideas into{&quot; &quot;} premium launch pages {&quot; &quot;} instantly.
+
+StartupQuick helps founders, studios, and creators turn raw startup ideas into polished, investor-friendly pages with structured messaging, visuals, proof bars, and shareable links.
+  </pre>
+  <a class="cta" href="#scope">$ read scope</a>
 </main>
-<section id="scope"><h2>Boundary</h2><ol><li>The page describes the current work. It does not invent customers.</li><li>A live signup, price, or metric appears here only when the product has one.</li><li>Maturity on this page is a label, not a launch claim.</li></ol></section>
+<section id="scope"><h2>scope</h2><ul><li>The page describes the current work. It does not invent customers.</li><li>A live signup, price, or metric appears here only when the product has one.</li><li>Maturity on this page is a label, not a launch claim.</li></ul></section>
 </body>
 </html>
