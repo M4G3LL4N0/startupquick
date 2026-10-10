@@ -1,146 +1,95 @@
-# StartupQuick
+# startupquick
 
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/hero-reduced.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/hero-light.svg">
-    <img src="assets/hero/hero-motion.svg" alt="StartupQuick — animated project plate showing objective &rarr; load context &rarr; call tools &rarr; verify. Motion depicts this project's real state transition." width="100%">
-  </picture>
-</p>
+> Launch before the momentum fades. Built in Stripe, Supabase. 24 routes (/about, /api/assets/upload, /api/checkout); 1 entry point (index.html). PROTOTYPE. No test suite committed.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/computational-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/computational-light.svg">
-    <img src="assets/hero/computational-motion.svg" alt="State machine: objective &rarr; load context &rarr; call tools &rarr; verify." width="100%">
-  </picture>
-</p>
+The implementation summary below is intentionally conservative. Claims from NORTHSTAR are not presented as shipped functionality.
 
-StartupQuick helps founders turn startup ideas into premium, shareable startup websites in minutes.
+- [GitHub repository](https://github.com/M4G3LL4N0/startupquick)
+- [Project site](https://startupquick.vercel.app)
 
-## Local
-npm run dev
+<!-- NOAERTH_IMAGE_SLOT: startupquick/hero -->
 
-## Build
-npm run build
+## What it is
 
-## Deploy
-vercel --prod
+Launch before the momentum fades. Built in Stripe, Supabase. 24 routes (/about, /api/assets/upload, /api/checkout); 1 entry point (index.html). PROTOTYPE. No test suite committed.
 
-## Domain setup
-- Root domain: startupquick.online
-- Wildcard domain: *.startupquick.online
+This repository is part of the NOAERTH venture ecosystem. The current public-facing evidence identifies it as a prototype / active development rather than a production-ready system.
 
-For wildcard tenant routing on Vercel:
-1. Add startupquick.online to the Vercel project
-2. Add *.startupquick.online to the Vercel project
-3. Point the domain to Vercel nameservers
-4. Deploy
+## Capabilities
 
-<!-- TRILLIONX:presentation:begin -->
+### Available evidence
 
-### Animated surfaces
+- The repository contains the implementation and documentation associated with the project description above.
+- The technology signals currently visible in the local project are listed in the technical notes below.
+- No additional capability is asserted here without a direct implementation reference.
 
-Generated from this repository's own source tree: every count, route and module below was measured, not written by hand.
+### Experimental or planned
 
-#### Identity
+Roadmap intent is deliberately not represented as shipped functionality. Review NORTHSTAR and source implementation together before adding future-facing claims.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/hero-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/hero-light.svg">
-  <img alt="Identity diagram for startupquick" src="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/hero-motion.svg">
-</picture>
+<!-- NOAERTH_IMAGE_SLOT: startupquick/workflow -->
 
-#### Entry points
+## How it works
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/terminal-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/terminal-light.svg">
-  <img alt="Entry points diagram for startupquick" src="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/terminal-motion.svg">
-</picture>
+The current evidence supports a repository-level application or tool workflow, but does not provide enough verified detail in the Part 1 record to publish a component-level architecture diagram. The architecture slot is reserved for a deterministic diagram after the source flow is reviewed.
 
-#### Modules
+<!-- NOAERTH_IMAGE_SLOT: startupquick/architecture -->
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/architecture-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/architecture-light.svg">
-  <img alt="Modules diagram for startupquick" src="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/architecture-motion.svg">
-</picture>
+## Quick start
 
-#### Routes
+### Prerequisites
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/data_flow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/data_flow-light.svg">
-  <img alt="Routes diagram for startupquick" src="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/data_flow-motion.svg">
-</picture>
+- A runtime suitable for `Node.js`.
+- A clean checkout of this repository.
 
-#### Primitives
+### Install
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/state_machine-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/state_machine-light.svg">
-  <img alt="Primitives diagram for startupquick" src="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/state_machine-motion.svg">
-</picture>
+```sh
+pnpm install
+```
 
-#### Composition
+### Run locally
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/component_map-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/component_map-light.svg">
-  <img alt="Composition diagram for startupquick" src="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/component_map-motion.svg">
-</picture>
+```sh
+pnpm run dev
+```
 
-#### Build and tests
+### Build
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/build-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/build-light.svg">
-  <img alt="Build and tests diagram for startupquick" src="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/build-motion.svg">
-</picture>
+```sh
+pnpm run build
+```
 
-#### Workflow
+Commands are included only when they were detected in the repository manifest; verify environment-specific requirements before deployment.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/workflow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/workflow-light.svg">
-  <img alt="Workflow diagram for startupquick" src="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/workflow-motion.svg">
-</picture>
+## Technical notes
 
-#### Domain
+- **Primary language:** JavaScript/TypeScript
+- **Runtime:** Node.js
+- **Package manager:** pnpm
+- **Framework and integration signals:** Go, Rust
+- **Entry-point signals:** package.json
+- **Test evidence:** TEST_PLAN.md
+- **Repository topics:** `react`, `typescript`, `app`, `components`, `dung30n5`, `index`, `next-js`, `noaerth`
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/domain-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/domain-light.svg">
-  <img alt="Domain diagram for startupquick" src="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/domain-motion.svg">
-</picture>
+## Status and roadmap
 
-#### Identity object
+**Current status:** Prototype / active development.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/footer-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/footer-light.svg">
-  <img alt="Identity object diagram for startupquick" src="https://raw.githubusercontent.com/M4G3LL4N0/startupquick/main/.github-art/surfaces/footer-motion.svg">
-</picture>
+**Current:** The repository and its documented implementation are available for inspection.
 
-<!-- TRILLIONX:presentation:end -->
+**Next:** Reconcile the README, source behavior, and safe public product language before adding deeper examples or diagrams.
 
-<!-- TRILLIONX:evidence:begin -->
+**Future:** Product direction is maintained separately and must not be read as a shipped feature list.
 
-## What is measurable here
+## Contributing and license
 
-Generated by `.github-art` from the source tree at publish time.
+Follow the repository's existing contribution and licensing files where present. This README does not invent an open-source license or contribution policy.
 
-| Signal | Value |
-| --- | --- |
-| HTTP routes | 24 |
-| Entry points | 1 |
-| Module roots | 5 |
-| Test files | 0 |
-| CI workflows | 0 |
-| Distinctive stack | Stripe, Supabase |
-| Status | PROTOTYPE |
-| Evidence confidence | E3 |
-| Animated surfaces | 10 |
+## Visual documentation
 
-<!-- TRILLIONX:evidence:end -->
+Image slots are intentionally comments until authentic screenshots, deterministic diagrams, or approved conceptual visuals exist. No absent image file is referenced.
+
+## NOAERTH
+
+[NOAERTH](https://www.noaerth.com) is the venture ecosystem associated with this project.
